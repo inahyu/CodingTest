@@ -2,12 +2,12 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class ProgrammersRunning {
     public static void main(String[] args) {
         String[] players = {"mumu", "soe", "poe", "kai", "mine"};
         String[] callings = {"kai", "kai", "mine", "mine"};
 
-        Solution sol = new Solution();
+        ProgrammersRunning sol = new ProgrammersRunning();
         System.out.println(Arrays.toString(sol.solution(players, callings)));
     }
     public String[] solution(String[] players, String[] callings) {
